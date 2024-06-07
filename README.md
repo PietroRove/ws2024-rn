@@ -24,3 +24,17 @@ Le modifiche grafiche apportate sono le seguenti:
 1. creazione del componente che utilizzeremo come `NavigationBar`. Per la barra di navigazione utilizzeremo una liberia che mette a disposizione un set di icone sufficiente allo scopo. La libreria può essere installata lanciando il comando `npm i react-native-vector-icons` 📐🛠️
  
 2. modifica del componente `StatusBar` presente di default in Expo ⚙️📲
+
+
+# Step 4 📋
+In questo step andremo ad aggiungere OneSignal (documentazione completa qui https://documentation.onesignal.com/docs/react-native-expo-sdk-setup) 📚.
+ 
+ Per poterlo fare è necessario registrarsi al sito onesignal.com ed essere in possesso di:
+- un account Firebase per Android. Link alla documentazione fornita da onesignal: https://documentation.onesignal.com/docs/android-firebase-credentials 🔗📱
+- il Push Authentication Certificate per IOS. Link alla documentazione fornita da onesignal: https://documentation.onesignal.com/docs/ios-p12-generate-certificates 🔑🍏
+
+Per comodità vi daremo gli accessi ad un account onesignal di test già configurato 🛠️🔐.
+
+All'interno del progetto è necessario installare:
+- la libreria per utilizzare OneSignal tramite il comando `npm install --save react-native-onesignal`
+- il plugin per expo tramite il comando `npx expo install onesignal-expo-plugin`
